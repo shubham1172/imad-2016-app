@@ -2,16 +2,38 @@
 <html>
     <head>
         <link href="/ui/style.css" rel="stylesheet" />
+		<title> index | A 1172 product </title>
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1" />
     </head>
     <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
-        </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! I am your webapp.
-        </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
+		<div class = "container">
+			<div class="center">
+				<img id = "profile" src="/ui/profile.png" class="img-medium"/>
+			</div>
+			<br>
+			<h3>Personal</h3>
+			<hr>
+			<div class="content">
+				Hi, I am Shubham Sharma!
+				I am a coding enthusiast and I also play guitar xD
+			</div>
+			<br>
+			<h3>Info</h3>
+			<hr>
+			<div class ="content">
+				<p>
+					This is my first web app! <br>
+					It is currently under construction. <br> 
+					HINT: checkout /about for more. <br> 
+					      click on the picture for animation.</p>
+			</div>
+			<div class = "footer">
+				This button <button id="counter"> UPDATE </button> updates the <br>
+				value of counter to <span id = "count"> 0 </span>!
+				<a href = '/chat-thread'>Chat Thread</a>
+			</div>
+			<script type="text/javascript" src="/ui/main.js">
+			</script>
+		</div>
     </body>
 </html>
